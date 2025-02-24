@@ -5,8 +5,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     /* display: flex; */
-    height: min(90.4vh);
+    height: 100%;
     justify-content: center;
+    margin-top: 88px;
     width: 100%;
 }
 

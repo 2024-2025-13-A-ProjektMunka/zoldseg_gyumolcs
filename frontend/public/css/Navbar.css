@@ -5,6 +5,9 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 1em;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 .navbar-kategoriak {
