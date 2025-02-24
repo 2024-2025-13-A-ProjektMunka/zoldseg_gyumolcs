@@ -62,9 +62,6 @@ const Cart = () => {
                                 <img
                                     src={`/images/gyumolcs/${elem.fajta.gyumolcs_nev}.jpg`}
                                 />
-                                <img
-                                    src={`/images/zoldseg/${elem.fajta.zoldseg_nev}.jpg`}
-                                />
                                 <p>
                                     Mennyiségi egység:{' '}
                                     {elem.fajta.gyumolcs_mennyisegi_egyseg}
