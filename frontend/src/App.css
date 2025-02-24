@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('/css/Navbar.css');
+@import url('/css/Home.css');
+@import url('/css/Zoldsegek.css');
+@import url('/css/Gyumolcsok.css');
+@import url('/css/Cart.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Fredoka', serif;
+}

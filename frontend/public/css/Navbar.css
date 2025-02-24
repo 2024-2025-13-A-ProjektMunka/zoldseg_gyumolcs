@@ -1,0 +1,51 @@
+.navbar {
+    align-items: center;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.navbar-kategoriak {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.navbar a {
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.navbar .material-symbols-outlined {
+    color: lightgreen;
+    font-size: 1.5em;
+}
+
+.navbar-logo .material-symbols-outlined {
+    font-size: 3em;
+}
+
+.navbar-kosar {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.navbar-szamlalo {
+    align-items: center;
+    background-color: red;
+    border-radius: 50%;
+    color: whitesmoke;
+    display: flex;
+    font-size: 15px;
+    height: 25px;
+    justify-content: center;
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    width: 25px;
+}

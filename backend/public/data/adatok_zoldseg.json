@@ -1,0 +1,32 @@
+[
+    {
+        "nev": "karalábé",
+        "mennyisegi_egyseg": "darab",
+        "mennyisegi_ar": 920
+    },
+    {
+        "nev": "karfiol",
+        "mennyisegi_egyseg": "fej",
+        "mennyisegi_ar": 1400
+    },
+    {
+        "nev": "paprika",
+        "mennyisegi_egyseg": "darab",
+        "mennyisegi_ar": 600
+    },
+    {
+        "nev": "paradicsom",
+        "mennyisegi_egyseg": "kg",
+        "mennyisegi_ar": 1200
+    },
+    {
+        "nev": "retek",
+        "mennyisegi_egyseg": "csomó",
+        "mennyisegi_ar": 850
+    },
+    {
+        "nev": "uborka",
+        "mennyisegi_egyseg": "darab",
+        "mennyisegi_ar": 1200
+    }
+]

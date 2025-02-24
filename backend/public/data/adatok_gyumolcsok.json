@@ -1,0 +1,32 @@
+[
+    {
+        "nev": "alma",
+        "mennyisegi_egyseg": "kg",
+        "mennyisegi_ar": 820
+    },
+    {
+        "nev": "cseresznye",
+        "mennyisegi_egyseg": "kg",
+        "mennyisegi_ar": 2800
+    },
+    {
+        "nev": "eper",
+        "mennyisegi_egyseg": "doboz",
+        "mennyisegi_ar": 6000
+    },
+    {
+        "nev": "körte",
+        "mennyisegi_egyseg": "kg",
+        "mennyisegi_ar": 2200
+    },
+    {
+        "nev": "őszibarack",
+        "mennyisegi_egyseg": "kg",
+        "mennyisegi_ar": 1850
+    },
+    {
+        "nev": "szilva",
+        "mennyisegi_egyseg": "kg",
+        "mennyisegi_ar": 1830
+    }
+]

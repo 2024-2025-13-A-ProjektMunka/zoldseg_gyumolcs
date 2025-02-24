@@ -1,0 +1,36 @@
+.home-container {
+    align-items: center;
+    background-image: url('/images/big-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: min(90.4vh);
+    justify-content: center;
+    width: 100%;
+}
+
+.home-kategoriak {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    margin: auto;
+    width: 50%;
+}
+
+.home-kategoria {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white, -5px -5px 5px white;
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
+
+.home-kategoria a {
+    color: blue;
+    cursor: pointer;
+    font-size: 3em;
+    text-decoration: none;
+}

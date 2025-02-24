@@ -1,0 +1,55 @@
+.gyumolcsok-container {
+    align-items: center;
+    background-image: url('/images/big-bg-fruits.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: min(90.4vh);
+    justify-content: center;
+    width: 100%;
+}
+
+.gyumolcsok-kontener {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    padding-top: 2em;
+    width: 80%;
+}
+
+.gyumolcs-container {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white, -5px -5px 5px white;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    height: 90%;
+    justify-content: center;
+    padding: 1em;
+}
+
+.gyumolcs-container img {
+    height: 60%;
+    object-fit: cover;
+    width: 80%;
+}
+
+.gyumolcsok-szamlalo {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.gyumolcsok-szamlalo .material-symbols-outlined {
+    background-color: #bbbbbb;
+    cursor: pointer;
+    height: 30px;
+    font-size: 30px;
+    user-select: none;
+    width: 30px;
+}

@@ -1,0 +1,51 @@
+.kosar-container {
+    align-items: center;
+    background-image: url('/images/big-bg-cart.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: flex; */
+    height: min(90.4vh);
+    justify-content: center;
+    width: 100%;
+}
+
+.kosar-container h1 {
+    background-color: #fff;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.kosar-kontener {
+    align-items: center;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(4, 1fr);
+    height: min(90.4vh);
+    margin: auto;
+    width: 80%;
+}
+
+.kosar-elem {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white, -5px -5px 5px white;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    height: 90%;
+    /* justify-content: center; */
+    padding: 1em;
+}
+
+.kosar-elem img {
+    width: 200px;
+}
+
+.kosar-elem button {
+    cursor: pointer;
+    font-size: 2em;
+    padding: 5px;
+}
