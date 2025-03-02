@@ -6,7 +6,7 @@ const Cart = () => {
     const { setSzamlalo, vasarlas, setVasarlas } = useContext(CounterContext);
 
     useEffect(() => {
-        console.log(vasarlas);
+        // console.log(vasarlas);
         let osszeg = 0;
         for (let i = 0; i < vasarlas.length; i++) {
             if (vasarlas[i].tipus === 'zöldség') {
@@ -30,7 +30,6 @@ const Cart = () => {
 
     return (
         <div className="kosar-container">
-            <h1>A kosár tartalma</h1>
             <div className="kosar-kontener">
                 {vasarlas.map((elem, index) => (
                     <div

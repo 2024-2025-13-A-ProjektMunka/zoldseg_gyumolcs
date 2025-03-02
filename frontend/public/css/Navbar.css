@@ -52,3 +52,34 @@
     top: -5px;
     width: 25px;
 }
+.navbar-elrejt {
+    display: flex;
+    gap: 1em;
+}
+
+.becsuk {
+    display: none;
+    font-size: 3em;
+}
+
+.felfedes {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+@media screen and (max-width: 630px) {
+    .navbar-elrejt {
+        display: none;
+    }
+
+    .felfedes {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .becsuk {
+        display: inline;
+    }
+}

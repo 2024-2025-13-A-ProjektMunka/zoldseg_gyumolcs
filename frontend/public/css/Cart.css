@@ -4,8 +4,8 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    /* display: flex; */
-    height: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 88px;
     width: 100%;
@@ -15,7 +15,6 @@
     background-color: #fff;
     margin: auto;
     text-align: center;
-    width: 50%;
 }
 
 .kosar-kontener {
@@ -23,8 +22,8 @@
     display: grid;
     gap: 1em;
     grid-template-columns: repeat(4, 1fr);
-    height: min(90.4vh);
-    margin: auto;
+    min-height: 100vh;
+    margin: 20px auto;
     width: 80%;
 }
 
@@ -36,12 +35,13 @@
     display: flex;
     flex-direction: column;
     gap: 3px;
-    height: 90%;
-    /* justify-content: center; */
+    height: 350px;
     padding: 1em;
 }
 
 .kosar-elem img {
+    height: 200px;
+    object-fit: cover;
     width: 200px;
 }
 
@@ -49,4 +49,38 @@
     cursor: pointer;
     font-size: 2em;
     padding: 5px;
+}
+
+@media screen and (max-width: 1400px) {
+    .kosar-kontener {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .kosar-kontener {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .kosar-container {
+        background-image: none;
+        background-color: aquamarine;
+    }
+
+    .kosar-kontener {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .kosar-elem {
+        background-image: url('/images/big-bg-cart.jpg');
+        background-size: cover;
+        background-position: center;
+        color: whitesmoke;
+    }
+
+    .kosar-elem h1 {
+        background-color: black;
+    }
 }
